@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Name of the book : </label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="author">Name of the author of the book : </label>
+        <input type="text" name="author" id="author" required><br>
+        <label for="page">Number of pages of the book : </label>
+        <input type="number" name="page" id="page" required><br>
+        <label for="read">Did your read the book ?</label>
+        <input type="radio" name="read" id="yes">
+        <label>Yes</label>
+        <input type="radio" name="read" id="no">
+        <label>No</label><br>
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+    <button class="ass">Input a book</button>
+    <div class="list"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    display:flex;
+    height:100vh;
+    gap:20px;
+}
+
+form {
+    display:none;
+    flex-direction:column;
+    width:500px;
+}
+
+.ass {
+    width:200px;
+    height:200px;
+    align-self:center;
+}
+
+.list {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
